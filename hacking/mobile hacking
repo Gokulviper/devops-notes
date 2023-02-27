@@ -1,0 +1,42 @@
+* apt list - shows all packages list
+* pkg install <package_name>
+
+some packages names
+
+ * figlet
+  * toilet
+  * cmatrix
+  * cowsay <some sentence>
+  
+  
+  termux color changing
+  
+  * git clone https://github.com/adi1090x/termux-style.git
+  * cd termux-style
+  * bash termux-style
+   
+   
+ Metasploit 
+   https://null-byte.wonderhowto.com/forum/install-metasploit-framework-termux-no-root-needed-m-wiz-tool-0309653/
+   
+   https://dev.to/h4ck3r/how-to-install-metasploit-in-termux-no-error-2022-3id5
+   command for install automatic - source <(curl -fsSL https://bit.ly/3cTWx5g)
+   
+   
+   some error check this - https://github.com/rapid7/metasploit-framework/issues/8765
+   
+   
+   
+  
+msf venom 
+  create a payload (virus ) send to a device
+  
+
+  - https://book.hacktricks.xyz/generic-methodologies-and-resources/shells/msfvenom
+  
+ install apache2 for using webserver
+ 
+ apt install apache2
+ 
+ apachectl - starting the apache2
+    

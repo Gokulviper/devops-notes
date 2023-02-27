@@ -1,0 +1,57 @@
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-migrate-ipv6.html
+https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+https://docs.amazonaws.cn/en_us/vpc/latest/userguide/get-started-ipv6.html
+youtube notes link
+       - https://youtu.be/N4S6UjR6gUY
+
+wget using ipv6
+	- https://www.linuxshelltips.com/wget-force-ipv4-ipv6-connection/
+
+	
+other notes
+ 
+     - https://www.blog.nodrama.io/ec2-route53-ipv6/
+ 
+     	
+ssh to ipv6
+
+	- https://linuxconfig.org/how-to-ssh-to-ipv6-address-on-linux#:~:text=If%20SSHing%20to%20a%20hostname,connection%20may%20default%20to%20IPv4.&text=That's%20about%20all%20there%20is%20to%20it.
+
+ping ipv6 address
+
+  - https://linuxconfig.org/how-to-ping-ipv6-address-on-linux
+	
+		
+Main link to use all conf
+  
+  - https://crishantha.medium.com/ipv6-networking-with-aws-vpc-b7ef3642a399	
+	
+
+
+
+Cent os notes
+ 
+ 	
+	check the file 
+	- vi /etc/sysconfig/network  
+	
+	- this is the correct content 
+       
+           NOZEROCONF=yes
+
+	# Created by cloud-init on instance boot automatically, do not edit.
+	#
+	NETWORKING=yes
+	NETWORKING_IPV6=yes
+	IPV6_AUTOCONF=yes
+	~               
+	
+and check the page for doubt
+ 
+  - https://www.tecmint.com/configure-ipv6-network-on-centos-rhel/	
+	
+
+  serial console password changing error 
+	   -https://www.tecmint.com/fix-passwd-authentication-token-manipulation-error-in-linux/ 
+	

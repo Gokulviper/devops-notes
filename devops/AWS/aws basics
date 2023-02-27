@@ -1,0 +1,51 @@
+public cloud - aws,azure,gcp
+priavte - cisco etc -paricular orgainization use interior
+
+Iaas - infrstructure as a service - ex:openstack 
+Saas - software as service   -gmail
+PAAS - paltform as a service - openshift
+
+CLOUD MODELS -
+
+  ON_premises(OWN SERVER) - your manages
+  
+   -Applications
+   -data
+   -runtime
+   -middleware
+   -os
+   -virtualizarion
+   -servers
+   -storage
+   -networking
+   
+   IAAS (Virtual machines)
+       -Applications
+   -data
+   -runtime
+   -middleware
+   -os
+     - others managed by service provider
+     
+   
+   PAAS (app services)
+         -Applications
+   -data
+        - others managed by service provider
+   SAAS 
+    all are  managed by service provider
+   
+   
+   * prices to be different in different data centers
+   * no comman dashboard for all  data ceneter usanges
+   
+   find the where is the high end users 
+   
+   * all service not available in all availblity zones 
+   
+   	
+   	SPOT rquests money less instances you can create
+  
+  
+  Scehduled instances
+   	

@@ -1,0 +1,78 @@
+EC2 - elastic computing
+ - only use free tier eligible
+ 
+ check Awscalculator to check the monthly calculation
+ 
+ AMI - AMAZON MACHINE IMAGE
+ 
+ AWS MARKETPLACE - to find any extension like other softwares and services
+ 
+ INstance types
+   configurations of memory and storage 
+    note - please only free tie eligible
+    EBS  - ELASTIC BLOCK STORAGE
+    
+    
+  Purchasing options
+   1)on-demand  -  one machine you can start any time and stop anytime
+   2)Reserved  - reserve the some machines (you pay some advance) - (price cheaper)
+   3)SPOT INSTANCE - inbetween uses some need inbetween (the price is cheaper then on demand )
+   
+   
+   Configure instance details 
+     *Enable termination protection - protect against accidental termination
+                                      -(it gives the alert for the termination )
+     * shutdown behaviour - choose stop  
+     
+     INSTANCE 
+       *general purpose   - normal use 
+       * compute optimized - higerend machines
+       *GPU Instance 
+       *Memory optimized 
+       
+       WHAT IS T2-micro
+       
+       T - Instacne Family 
+       2 - Generation like 1 and 2
+       Micro - size - (nano -> micro -> small -> medium -> large - 2x large)
+       
+       
+       TAGS 
+         you need to enter the project code 
+          -used the control the expense uses 
+  
+     
+     Key and pair concept  --> entry point of EC2 instance
+      
+      for windows
+      *download putty and putty gen
+      * open the download the private key file and save the file in the same name
+             
+             
+     * you can modify security groups in run time you dont need to stop the instance
+     
+     *every instance restart public ip will changed for EC2 instance
+     
+     * if you want a static ip use elastic ip for permanent ip address
+     
+     
+   METE DATA
+   
+   use the command 
+     * curl http://169.254.169.254/latest/meta-data
+      
+      you can see see the all details
+                  
+     standard meta data running ip - 169.254.169.254
+     
+     
+  TEMPLATES 
+    you can set a templates you can set for all all ami,network settings.etc all
+    
+   -> go to actions->create template from the instance
+     
+                  
+    * curl http://169.254.169.254/latest/dynamic/instance-identity 
+    
+      - seee the all the deatils of the instance
+                   

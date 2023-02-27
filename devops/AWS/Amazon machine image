@@ -1,0 +1,15 @@
+ VOLUMES
+  
+  default volume - root
+  
+  note - you stop the machine but the volume storage is occupied .untill you terminate  the instance the volume price is chargable
+  
+ 
+  AMI
+  
+  we can create a custom ami 
+  
+ Snapshot  - incremental backup 	
+ 
+   backups using unexpected situations 
+  
