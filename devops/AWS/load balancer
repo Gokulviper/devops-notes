@@ -1,0 +1,27 @@
+1.Classic load balancer 	
+
+old generation 
+supports TCP(Layer 4) and HTTP and HTTPS(Layer 7)
+
+you need to create a security group for load balancer
+
+Dns names is load balancer address
+
+2.Application load balancer 
+
+it supports web sockets and http/https(Layer 7)
+scaled automatically
+can load balance beteween
+EC2 instances
+AMAZON ECS
+web application 
+serverlesffs
+
+
+how to create 
+ https://aws.plainenglish.io/how-to-create-an-aws-application-load-balancer-for-your-ec2-instances-61d2211c9ac4
+ https://linuxhint.com/create-and-configure-application-load-balancer-on-aws/
+ 
+ note : once you created the load balance change the all connnected nodes security group
+        to connect from load balancer only for the security and you can set you can access the all the nodes by the load balancer domain 
+        

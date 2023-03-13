@@ -38,7 +38,7 @@ Cent os notes
 	
 	- this is the correct content 
        
-           NOZEROCONF=yes
+         NOZEROCONF=yes
 
 	# Created by cloud-init on instance boot automatically, do not edit.
 	#
