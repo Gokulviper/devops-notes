@@ -1,0 +1,30 @@
+-> docker network ls -> show all docker network interfaces
+-> docker network   -> show all docker network related commands
+
+  create own network interface every runnning conatiner ss
+  also act as a dhcp client -> check docker inspect brige -> you seen different ip address alocated
+  you can login conatainer using like this -> docker exec -it <container name>  sh
+  you can ping the ip that's works
+
+-> docker run -itd --network <name of network your wish>  --name <container name > <image name>  -- you can define your own network interfaces
+
+macvlan network -> without any needs like interfaces etc.. directly connect to the internet containers
+-> docker network network create -d macvlan --subnet <our subnet like 10.2.0.3/24> --gateway <our gateway like 10.2.0.4> -o parent=enp0s3  <name of the network -- your wise>
+
+docker daemon configuration  - https://docs.docker.com/config/daemon/
+
+docker netwokring basic website link - https://docs.docker.com/network/
+
+docker network drivers - 
+
+bridge: The default network driver. If you don’t specify a driver, this is the type of network you are creating. Bridge networks are usually used when your applications run in standalone containers that need to communicate.
+see more about bridge - https://docs.docker.com/network/bridge/
+
+* need ipv6 connection to docker - https://docs.docker.com/config/daemon/ipv6/
+
+->  docker run -dit --name alpine2 --network alpine-net alpine ash -- > --network you can specify the network.default network is bridge
+
+standalone network tutorial - https://docs.docker.com/network/network-tutorial-standalone/
+
+docker networking using host network - https://docs.docker.com/network/network-tutorial-host/
+

@@ -1,0 +1,21 @@
+MFA device options
+  1)virtual mfa device  -> suppoirt multiple token on the single device
+  2)Universal 2nd factor -> 3rd party physical device > suppoirt multiple root  and IAM users using single security key
+  3)hardware key fob MFA device -> provided by gemalto 
+  4)hardware key fob  Devicd for Aws govcloud -> Provided by surePassId
+
+ways to access to Aws
+1)aws Cli
+2)aws console
+2)aws sdk (software devlopemnet kit)
+
+sdk
+  *language specific ApiBot
+  *enable you to access and manage aws serivce programticaaly
+  *embedded within your system
+  supprots
+     - sdk(js,python,php,ruby,java)
+     - mobile sdk (ios,android)
+     - iot deivice sdk(embedded C,Arduino)
+     
+  

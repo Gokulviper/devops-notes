@@ -76,3 +76,25 @@ EC2 - elastic computing
     
       - seee the all the deatils of the instance
                    
+
+  EC2 USER data
+  * bootstap our instance
+  *boostrap means laucnhing the commands when a machine starts
+  *EC2 user data automate boot tasks such AppServer
+    *installing updates 
+    *installing updates
+    *Downloading common files from the internet 
+    *anything you can thinkn of
+  *the Ec2 user data script runs with a root user
+
+  Instance types 
+    Instance - name of the instance types
+    vcpu - 
+    mem(GIb)
+    storage 
+    Network performance
+    EBS Bandwith(MBps)
+
+  example -> m5.xlarge
+     m-instance
+       

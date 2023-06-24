@@ -1,0 +1,8 @@
+* you must have a same file system for instance and file system
+
+
+* you can set life cycle policy to infrequnet  access
+compartively comparing to lower price to frquent access         
+
+
+create a efs and mount to a instance  - https://medium.com/devops-cloud-it-career/create-an-amazon-efs-file-system-and-mount-to-an-ec2-instance-a1bb3c341914
