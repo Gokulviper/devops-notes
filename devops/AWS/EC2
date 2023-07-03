@@ -97,4 +97,7 @@ EC2 - elastic computing
 
   example -> m5.xlarge
      m-instance
-       
+      
+
+  note : You can attach up to 5 security groups to an EC2 instance, this gives you the flexibility to define more rules in a manageable way
+      

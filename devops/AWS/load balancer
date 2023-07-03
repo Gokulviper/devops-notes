@@ -1,3 +1,23 @@
+Load balancer
+
+Application scalling
+vertical scalling - increase size of the machine 
+horizontal scalling - increase the servers
+
+
+Elastic load balancer 
+
+*An ELB is managed load balancer 
+  * AWS gurantees that it will be working
+  * AWS takes care of upgrades,maintanence,high availablity 
+  * it cost less to startup your own load balancer but it will be lot more effort on your end
+  *4 kinds of load balancer offer by AWS
+     - application load balancer (HTTP/HTTPS only) -Layer -
+     - Network load balanncer (ultra-high-performance,allows for TCP)  -later 4
+     - gateway load balacer  -layer 3
+     - classic load balancer  (retired 2023)  - layer 4 & 7
+
+
 1.Classic load balancer 	
 
 old generation 
@@ -25,3 +45,24 @@ how to create
  note : once you created the load balance change the all connnected nodes security group
         to connect from load balancer only for the security and you can set you can access the all the nodes by the load balancer domain 
         
+
+
+Auto scalling groups
+
+*  It adds or removes instances depending on the load of the server. When there is a high load, it will add instances. If the load is low, it will remove instances (extra ones).
+
+* It scales EC2 instances up or down, which helps in managing the availability of applications.
+
+* It runs the required number of instances. For example, if the required number of instances is 5, then it will run 5 EC2 instances
+
+Auto scalling strategies 
+* Manual scalling - update the size of ASG manually
+*Dynamic scalling - respond to changing demand
+  - simple/step scalling
+        *when cloud watch alarm triggered (example cpu >70%) then add 2 units
+        * when a cloudwatch alarm is triggered (example CPU <30%>) then remove
+     -Target tracking scalling
+       *example : i want the average ASG CPU to stay at around 40%
+     - Scalling scalling
+       * Anticipate a scalling based on known usage pattern
+       *Example : increase the min,capacity to 10 at 5 on fridaya     
